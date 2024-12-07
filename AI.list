@@ -4,3 +4,7 @@
 # IP-CIDR: 匹配特定的 IP 地址或 CIDR 范围。
 # GEOIP: 根据地理位置匹配 IP 地址。
 # MATCH: 匹配所有未被其他规则匹配的流量。
+
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,auth0.com
