@@ -5,6 +5,6 @@
 # GEOIP: 根据地理位置匹配 IP 地址。
 # MATCH: 匹配所有未被其他规则匹配的流量。
 
-DOMAIN-SUFFIX,steampowered.com,AutoSelect
-DOMAIN-SUFFIX,ubisoft.com,AutoSelect
-DOMAIN-SUFFIX,ea.com,AutoSelect
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,ubisoft.com
+DOMAIN-SUFFIX,ea.com
