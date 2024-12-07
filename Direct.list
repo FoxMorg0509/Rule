@@ -4,3 +4,16 @@
 # IP-CIDR: 匹配特定的 IP 地址或 CIDR 范围。
 # GEOIP: 根据地理位置匹配 IP 地址。
 # MATCH: 匹配所有未被其他规则匹配的流量。
+
+DOMAIN-SUFFIX,tplogin.cn
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,.cn
+DOMAIN-SUFFIX,.gov.cn
+
+IP-CIDR,114.114.114.114
+IP-CIDR,223.5.5.5
+IP-CIDR,180.184.1.1
+IP-CIDR,180.184.2.2
+IP-CIDR,119.29.29.29
