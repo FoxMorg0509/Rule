@@ -17,4 +17,11 @@ DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,126.net
 DOMAIN-SUFFIX,163.com
 DOMAIN-SUFFIX,bilibili.com
+
+#Steam
 DOMAIN-SUFFIX,steamcontent.com
+
+#Epic Games
+DOMAIN-SUFFIX,download.epicgames.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,fastly-download.epicgames.com
