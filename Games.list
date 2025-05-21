@@ -25,6 +25,13 @@ DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN,steampipe.akamaized.net
 
+#Epic Games
+DOMAIN-SUFFIX,epicgames.com
+DOMAIN-SUFFIX,epicgames.store
+DOMAIN,ecommerce.on.epicgames.com
+DOMAIN,tracking.epicgames.com
+DOMAIN,launcher-website-prod07.ol.epicgames.com
+
 DOMAIN-SUFFIX,ubisoft.com
 DOMAIN-SUFFIX,ea.com
 DOMAIN-SUFFIX,eveonline.com
