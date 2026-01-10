@@ -5,10 +5,16 @@
 # GEOIP: 根据地理位置匹配 IP 地址。
 # MATCH: 匹配所有未被其他规则匹配的流量。
 
-DST-PORT,6881,DIRECT       # BitTorrent 默认端口
-DST-PORT,6882-6999,DIRECT  # BT 常见端口范围
-DST-PORT,51413,DIRECT      # Transmission 默认端口
+# BitTorrent 默认端口
+DST-PORT,6881,DIRECT
+# BT 常见端口范围
+DST-PORT,6882-6999,DIRECT
+# Transmission 默认端口
+DST-PORT,51413,DIRECT
+
 DOMAIN-SUFFIX,bt-tracker.com,DIRECT
 DOMAIN-SUFFIX,announce.torrent,DIRECT
 DOMAIN-SUFFIX,tracker.opentrackr.org,DIRECT
-DOMAIN-KEYWORD,tracker,DIRECT  # 屏蔽所有含 "tracker" 的域名
+
+# 屏蔽所有含 "tracker" 的域名
+DOMAIN-KEYWORD,tracker,DIRECT
