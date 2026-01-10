@@ -6,15 +6,16 @@
 # MATCH: 匹配所有未被其他规则匹配的流量。
 
 # BitTorrent 默认端口
-DST-PORT,6881,DIRECT
+DST-PORT,6881
 # BT 常见端口范围
-DST-PORT,6882-6999,DIRECT
+DST-PORT,6882-6999
 # Transmission 默认端口
-DST-PORT,51413,DIRECT
+DST-PORT,51413
 
-DOMAIN-SUFFIX,bt-tracker.com,DIRECT
-DOMAIN-SUFFIX,announce.torrent,DIRECT
-DOMAIN-SUFFIX,tracker.opentrackr.org,DIRECT
+DOMAIN-SUFFIX,bt-tracker.com
+DOMAIN-SUFFIX,announce.torrent
+DOMAIN-SUFFIX,tracker.opentrackr.org
 
 # 屏蔽所有含 "tracker" 的域名
-DOMAIN-KEYWORD,tracker,DIRECT
+DOMAIN-KEYWORD,tracker
+
