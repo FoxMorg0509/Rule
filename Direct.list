@@ -5,11 +5,12 @@
 # GEOIP: 根据地理位置匹配 IP 地址。
 # MATCH: 匹配所有未被其他规则匹配的流量。
 
+DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,foxnest.pro
 DOMAIN-SUFFIX,tplogin.cn
 DOMAIN-SUFFIX,baidu.com
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,.cn
 DOMAIN-SUFFIX,.gov.cn
 DOMAIN-SUFFIX,mi.cn
 DOMAIN-SUFFIX,taobao.com
